@@ -1,0 +1,16 @@
+GET http://localhost:5144/games
+###
+GET http://localhost:5144/games/1
+
+###
+POST http://localhost:5144/games
+Content-Type: application/json
+
+{
+    "Name": "Another Obj",
+    "Description": "Description of a third object"
+}
+
+## 
+
+PUT http://localhost:5144/games/1
